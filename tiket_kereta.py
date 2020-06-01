@@ -60,5 +60,25 @@ while (True):
                          print("Tiket kereta = Rp. 4000")
                 else:
                     print("Kelas tidak valid, mohon inputkan kelas 1/2!")
-                
+    elif menu=="2":
+        print("Panduan refund tiket kereta:")
+        print("1. Isi formulir pembatalan disertai keterangan pembatalan tiket")
+        print("2. Sertakan bukti transaksi")
+        print("3. Serahkan kepada petugas loket yang tersedia")
+        print("")
+        print("Terimakasih!")
+    elif menu=="3":
+        print("Mohon hubungi kontak kami apabila ada kendala dan meminta bantuan.")
+        listCS = ["(0271)714039", "121 / (021)121", "09.00-16.00"]
+        print("Office phone : ", listCS[0])
+        print("Contact center : ", listCS[1])
+        print("Jam pelayanan : ", listCS[2])
+        print("")
+        print("Terima kasih")
+    else:
+        print("Menu tidak valid, pilih menu 1-3!")
+        ulang=input("Kembali ke menu (y/n)?")
+        if ulang=='y':
+            continue
+        
                     
