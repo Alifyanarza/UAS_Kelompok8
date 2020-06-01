@@ -39,7 +39,7 @@ while (True):
                         print("Tiket kereta = Rp. 3000")
                 else:
                     print("Kelas tidak valid, mohon inputkan kelas 1/2!")
-             elif tujuan=="2":
+            elif tujuan=="2":
                 print("")
                 print("Kelas:")
                 Kelas=["Ekonomi","Bisnis"]
@@ -60,6 +60,35 @@ while (True):
                          print("Tiket kereta = Rp. 4000")
                 else:
                     print("Kelas tidak valid, mohon inputkan kelas 1/2!")
+            else:
+                print("")
+                print("Kelas: ")
+                Kelas=["Ekonomi","Bisnis"]
+                for x in range (2):
+                    print(x+1, kelas[x])
+                kelas=input("Pilih kelas: ")
+                if kelas=="1":
+                    hari=input("Apakah weekend? (y/n): ")
+                    if hari=="y":
+                        print("Tiket kereta = Rp. 5000")
+                    else:
+                        print("Tiket kereta = Rp. 4000")
+                elif kelas=="2":
+                    hari=input("Apakah weekend? (y/n): ")
+                    if hari=="y":
+                        print("Tiket kereta = Rp. 9000")
+                    else:
+                        print("Tiket kerete = Rp. 7000")
+                else:
+                    print("Kelas tidak valid, mohon inputkan kelas 1/2!")
+            print("")
+            
+            print("Kode pembayaran: ", no_ktp)
+            print("Silahkan melakukan transaksi sesuai kode pembayaran anda di loket yang tersedia.")
+            print("Terimakasih atas kepercayaannya, semoga selamat sampai tujuan.")
+            print("Apakah anda ingin menghentikan program? (y/n): ")
+            if o=='y':
+                break           
     elif menu=="2":
         print("Panduan refund tiket kereta:")
         print("1. Isi formulir pembatalan disertai keterangan pembatalan tiket")
