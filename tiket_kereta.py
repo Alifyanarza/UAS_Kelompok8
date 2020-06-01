@@ -29,10 +29,34 @@ while (True):
                         print("Tiket kereta = Rp. 2000")
                     else:
                         print("Tiket kereta = Rp. 1000")
-               else:
-                hari=input("Apakah weekend? (y/n): ")
-                if hari=="y":
-                    print("Tiket kereta = Rp. 4000")
+                elif kelas=="2":
+                    hari=input("Apakah weekend? (y/n): ")
+                    if hari=="y":
+                        print("Tiket kereta = Rp. 4000")
+                    else:
+                        print("Tiket kereta = Rp. 3000")
                 else:
-                    print("Tiket kereta = Rp. 3000")
+                    print("Kelas tidak valid, mohon inputkan kelas 1/2!")
+             elif tujuan=="2":
+                print("")
+                print("Kelas:")
+                Kelas=["Ekonomi","Bisnis"]
+                for x in range (2):
+                    print(x+1, Kelas[x])
+                kelas=input("Pilih kelas: ")
+                if kelas=="1"
+                    hari=input("Apakah weekend? (y/n): ")
+                    if hari=="y":
+                         print("Tiket kereta = Rp. 3000")
+                    else:
+                         print("Tiket kereta = Rp. 2000")
+                elif kelas=="2":
+                    hari=input("Apakah weekend? (y/n): ")
+                    if hari=="y":
+                         print("Tiket kereta = Rp. 5000")
+                    else:
+                         print("Tiket kereta = Rp. 4000")
+                else:
+                    print("Kelas tidak valid, mohon inputkan kelas 1/2!")
+                
                     
