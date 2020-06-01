@@ -1,9 +1,11 @@
 print("PT. KAI")
+print("Alamat: Jalan Wolter Monginsidi No.112, Kestalan, Kec. Banjarsari, Kota Surakarta, Jawa Tengah 57713")
 print("")
 print("Selamat datang di Stasiun Balapan, Silahkan pilih menu untuk melanjutkan")
-print("|  1. Pesan tiket kereta")                                                               
-print("|  2. Panduan refund tiket kereta")                                                                 
-print("|  3. Customer service")
+list_Menu = ["Pemesanan tiket", "Panduan refund tiket", "Customer Service"]
+print("1. ", list_Menu[0])
+print("2. ", list_Menu[1])
+print("3. ", list_Menu[2])
 print("=====================================")
 while (True):
     menu=input("Pilih menu: ")
