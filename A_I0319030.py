@@ -1,4 +1,6 @@
 #Sumber : Program Tarif Parkir Bandara milik Elfira Vidian Paquita
+#Program tiket kereta dimodifikasi dengan penggunaan list serta penambahan menu baru
+#Menu yang ditambahkan yaitu menu refund dan costumer service
 
 print ("Tarif Parkir")
 
