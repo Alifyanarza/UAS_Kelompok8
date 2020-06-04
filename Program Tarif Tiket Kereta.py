@@ -97,7 +97,7 @@ while (True):
             if o=='y':
                 break
     elif menu=="2":
-        print("Panduan refund tiket kereta:")
+        print("Panduan refund tiket kereta: ")
         print("1. Isi formulir pembatalan disertai keterangan pembatalan tiket")
         print("2. Sertakan bukti transaksi")
         print("3. Serahkan kepada petugas loket yang tersedia")
