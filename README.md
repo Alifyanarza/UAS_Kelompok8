@@ -13,7 +13,7 @@
   
 # Deskripsi Program
 
-  Pada repository ini program yang kami eksekusi adalah program berjudul "tiket_kereta.py". Program ini dibuat untuk memudahkan calon penumpang kereta untuk memesan tiket kereta jarak dekat (Solo-Jogja). Program ini digunakan di Stasiun Balapan Solo. 
+  Pada repository ini program yang kami eksekusi adalah program berjudul "tiket_kereta.py". Program ini dibuat untuk memudahkan calon penumpang kereta untuk memesan tiket kereta jarak dekat (Solo-Jogja) dari Stasiun Solo Balapan. 
   
 # Penggunaan
 
