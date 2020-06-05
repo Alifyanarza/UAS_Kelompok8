@@ -13,7 +13,7 @@
   
 # Deskripsi Program
 
-  Pada repository ini program yang kami eksekusi adalah program berjudul "tiket_kereta.py". Program ini dibuat untuk memudahkan calon penumpang kereta untuk memesan tiket kereta jarak dekat (Solo-Jogja). Program ini digunakan di Stasiun Balapan Solo. 
+  Pada repository ini program yang kami eksekusi adalah program berjudul "tiket_kereta.py". Program ini dibuat untuk memudahkan calon penumpang kereta untuk memesan tiket kereta jarak dekat (Solo-Jogja) dari Stasiun Solo Balapan. 
   
 # Penggunaan
 
@@ -27,7 +27,7 @@
  
   * Pemesanan Tiket
   
-      Untuk memesan tiket, calon penumpang harus mengisi data sesuai permintaan program. Urut-urutannya sebagai berikut:
+      Untuk memesan tiket, calon penumpang dapat menginputkan angka "1" pada pilihan menu,kemudian dilanjutkan dengan mengisi data sesuai permintaan program dengan urutan sebagai berikut:
       1. Menginputkan Nama, Nomor KTP, dan Tanggal Keberangkatan
       2. Menginputkan stasiun tujuan. (dengan menginput nomor dari stasiun yang akan dituju: 1 Stasiun Purwosari; 2 Stasiun Maguwo; 3 Stasiun Tugu)
       3. Menginputkan kelas kereta yang ingin dinaiki. (dengan menginput nomor dari kelas yang diinginkan: 1 Ekonomi; 2 Bisnis)
@@ -36,8 +36,15 @@
       
   * Panduan Refund Tiket
   
-      Untuk refund tiket, calon penumpang harus memenuhi langkah-langkah dan persyaratan sesuai permintaan program, sebagai berikut:
+      Untuk refund tiket, calon penumpang dapat menginputkan angka "2" pada pilihan menu, kemudian akan muncul langkah-langkah dan persyaratan yang harus dilakukan sebagai berikut:
       1. Mengisi formulir pembatalan disertai keterangan pembatalan tiket
       2. Menyertakan bukti transaksi
       3. Menyerahkan kepada petugas loket yang tersedia
+
+  * Costumer Service
+
+      Apabila terjadi kendala atau masalah dalam pemesanan tiket kereta, calon penumpang dapat meminta bantuan dari pihak PT KAI dengan cara menginputkan angka "3" pada pilihan menu, maka akan muncul nomor yang dapat dihubungi dan jam pelayanan sebagai berikut:
+      -  Office Phone   : (0271)714039
+      -  Contact Center : 121 / (021)121
+      -  Jam Pelayanan  : 09.00 - 16.00
 
