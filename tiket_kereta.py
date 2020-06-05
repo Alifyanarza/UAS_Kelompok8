@@ -78,7 +78,7 @@ while (True):
                     if hari=="y":
                         print("Tiket kereta = Rp. 9000")
                     else:
-                        print("Tiket kerete = Rp. 7000")
+                        print("Tiket kereta = Rp. 7000")
                 else:
                     print("Kelas tidak valid, mohon inputkan kelas 1/2!")
             print("")
