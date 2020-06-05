@@ -26,6 +26,7 @@
   Calon penumpang bisa menginputkan angka sesuai dengan keperluan yang ingin dilakukan.
  
   * Pemesanan Tiket
+  
       Untuk memesan tiket, calon penumpang harus mengisi data sesuai permintaan program. Urut-urutannya sebagai berikut:
       1. Menginputkan Nama, Nomor KTP, dan Tanggal Keberangkatan
       2. Menginputkan stasiun tujuan. (dengan menginput nomor dari stasiun yang akan dituju: 1 Stasiun Purwosari; 2 Stasiun Maguwo; 3 Stasiun Tugu)
@@ -34,6 +35,7 @@
       5. Calon penumpang menyelesaikan transaksi di loket dengan menunjukkan kode pembayaran dan nomor KTP.
       
   * Panduan Refund Tiket
+  
       Untuk refund tiket, calon penumpang harus memenuhi langkah-langkah dan persyaratan sesuai permintaan program, sebagai berikut:
       1. Mengisi formulir pembatalan disertai keterangan pembatalan tiket
       2. Menyertakan bukti transaksi
