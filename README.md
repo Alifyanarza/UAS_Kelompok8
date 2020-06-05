@@ -13,11 +13,12 @@
   
 # Deskripsi Program
 
-  Pada repository ini program yang kami eksekusi adalah program berjudul "tiket_kereta.py". Program ini dibuat untuk memudahkan calon penumpang kereta untuk memesan tiket kereta jarak dekat (Solo-Jogja) dari Stasiun Solo Balapan. 
+  Pada repository ini program yang kami eksekusi adalah program berjudul "tiket_kereta.py". Program ini dibuat untuk memudahkan calon penumpang kereta untuk memesan tiket kereta jarak dekat (Solo-Jogja). Program ini digunakan di Stasiun Balapan Solo. 
   
 # Penggunaan
 
   Calon penumpang kereta jarak dekat (Solo-Jogja) bisa memesan tiket melalui mesin tiket yang terdapat di Stasiun Balapan Solo. Pada layar mesin akan menampilkan 3 pilihan menu yaitu:
+  
   1. Pemesanan Tiket
   2. Panduan Refund Tiket
   3. Costumer Service
@@ -31,4 +32,10 @@
       3. Menginputkan kelas kereta yang ingin dinaiki. (dengan menginput nomor dari kelas yang diinginkan: 1 Ekonomi; 2 Bisnis)
       4. Akan muncul kode pembayaran dan nomor KTP.
       5. Calon penumpang menyelesaikan transaksi di loket dengan menunjukkan kode pembayaran dan nomor KTP.
+      
+  * Panduan Refund Tiket
+      Untuk refund tiket, calon penumpang harus memenuhi langkah-langkah dan persyaratan sesuai permintaan program, sebagai berikut:
+      1. Mengisi formulir pembatalan disertai keterangan pembatalan tiket
+      2. Menyertakan bukti transaksi
+      3. Menyerahkan kepada petugas loket yang tersedia
 
