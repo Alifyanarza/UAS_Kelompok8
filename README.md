@@ -1,4 +1,5 @@
 # Tugas Besar Program Komputer 2020
+
   Program pemesanan tiket kereta api ini kami buat dalam rangka memenuhi tugas besar mata kuliah Program Komputer. Program ini kami bentuk terinspirasi dari tugas kami sebelumnya yaitu Program Tiket/Karcis Parkir. Program yang kami jadikan acuan yaitu program "A_I0319030.py" milik salah satu anggota kelompok ini.
   
   Dari program yang kami jadi kan acuan tadi kami menambahkan beberapa hal baru sesuai dengan materi yang kita dapatkan setelahnya. Penambahan tersebut antara lain penggunaan list. Kemudian kami menambahkan pula menu baru yang sesuai dengan kebutuhan pemesanan tiket kereta api seperti, refund dan costumer service. Pembuatan program ini kami lakukan secara kolaborasi dalam kelompok sebagai berikut:
@@ -9,3 +10,18 @@
   3. Dea Ananda Z           (I0319019)
   4. Elfira Vidian P        (I0319030)
   5. Faricha Septi S. F. H  (I0319034)
+  
+# Deskripsi Program
+
+  Pada repository ini program yang kami eksekusi adalah program berjudul "tiket_kereta.py". Program ini dibuat untuk memudahkan calon penumpang kereta untuk memesan tiket kereta jarak dekat (Solo-Jogja). Program ini digunakan di Stasiun Balapan Solo. 
+  
+# Penggunaan
+
+  Calon penumpang kereta jarak dekat (Solo-Jogja) bisa memesan tiket melalui mesin tiket yang terdapat di Stasiun Balapan Solo. Pada layar mesin akan menampilkan 3 pilihan menu yaitu:
+  1. Pemesanan Tiket
+  2. Panduan Refund Tiket
+  3. Costumer Service
+  Calon penumpang bisa menginputkan angka sesuai dengan keperluan yang ingin dilakukan.
+ 
+      
+
