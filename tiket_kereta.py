@@ -113,7 +113,7 @@ while (True):
                     else:
                         print("Maksimal pemesanan adalah 3 tiket!")
                 else:
-                    print("Kelas tidak valid, mohon input kelas 1/2!"
+                    print("Kelas tidak valid, mohon input kelas 1/2!")
             elif tujuan=="2":
                 print("")
                 print("Kelas:")
