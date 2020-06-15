@@ -29,7 +29,7 @@
   
       Untuk memesan tiket, calon penumpang dapat menginputkan angka "1" pada pilihan menu,kemudian dilanjutkan dengan mengisi data sesuai permintaan program dengan urutan sebagai berikut:
       1. Menginputkan Nama & Nomor KTP
-      2. Memilih kereta yang disediakan (2 kereta) dengan jam keberangkatan yang selisihnya 1 jam.
+      2. Memilih kereta yang disediakan (2 kereta) dengan jam keberangkatan yang selisihnya 3 jam.
       3. Disediakan daftar jadwal keberangkatan pada minggu itu, pilih jadwal hari kemudian jadwal jam.
       4. Menginputkan stasiun tujuan. (dengan menginput nomor dari stasiun yang akan dituju: 1 Stasiun Purwosari; 2 Stasiun Maguwo; 3 Stasiun Tugu)
       5. Menginputkan kelas kereta yang ingin dinaiki. (dengan menginput nomor dari kelas yang diinginkan: 1 Ekonomi; 2 Bisnis)
