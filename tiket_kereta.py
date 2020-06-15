@@ -74,6 +74,7 @@ while (True):
                 break
             
             print("")
+            print("Daftar Tujuan: ")
             Tujuan=["Stasiun Purwosari","Stasiun Maguwo","Stasiun Tugu"]
             for n in range (3):
                 print(n+1,Tujuan[n])
@@ -86,19 +87,33 @@ while (True):
                     print(x+1, Kelas[x])
                 kelas=input("Pilih kelas: ")
                 if kelas=="1":
-                    hari=input("Apakah weekend? (y/n): ")
-                    if hari=="y":
-                        print("Tiket kereta = Rp. 2000")
-                    else:
-                        print("Tiket kereta = Rp. 1000")
+                    pesan=input("Jumlah tiket yang dipesan (1 orang maksimal dapat memesan 3 tiket): ")
+                    if pesan=="1":
+                        D = 1*2000
+                        print("Total harga tiket anda sebesar Rp.", D)
+                    elif pesan=="2":
+                        D = 2*2000
+                        print("Total harga tiket anda sebesar Rp.", D)
+                    elif pesan=="3":
+                        D = 3*2000
+                        print("Total harga tiket anda sebesar Rp.", D)
+                    else: 
+                        print("Maksimal pemesanan adalah 3 tiket!")
                 elif kelas=="2":
-                    hari=input("Apakah weekend? (y/n): ")
-                    if hari=="y":
-                        print("Tiket kereta = Rp. 4000")
+                    pesan=input("Jumlah tiket yang dipesan (1 orang maksimal dapat memeasan 3 tiket):")
+                    if pesan=="1":
+                        D = 1*4000
+                        print("Total harga tiket anda sebesar Rp.", D)
+                    elif pesan=="2":
+                        D = 2*4000
+                        print("Total harga tiket anda sebesar Rp.", D)
+                    elif pesan=="3":
+                        D = 3*4000
+                        print("Total harga tiket anda sebesar Rp.", D)
                     else:
-                        print("Tiket kereta = Rp. 3000")
+                        print("Maksimal pemesanan adalah 3 tiket!")
                 else:
-                    print("Kelas tidak valid, mohon inputkan kelas 1/2!")
+                    print("Kelas tidak valid, mohon input kelas 1/2!"
             elif tujuan=="2":
                 print("")
                 print("Kelas:")
