@@ -69,6 +69,9 @@ while (True):
                        break
                    else:
                        print("Jadwal berhasil di booking, silahkan lanjut!")
+            else:
+                print("Mohon inputkan nomor kereta antara 1-2!")
+                break
             
             print("")
             Tujuan=["Stasiun Purwosari","Stasiun Maguwo","Stasiun Tugu"]
