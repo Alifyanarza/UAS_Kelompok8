@@ -98,7 +98,8 @@ while (True):
                         D = 3*2000
                         print("Total harga tiket anda sebesar Rp.", D)
                     else: 
-                        print("Maksimal pemesanan adalah 3 tiket!")
+                        print("Maksimal pemesanan adalah 3 tiket!)
+                        break      
                 elif kelas=="2":
                     pesan=input("Jumlah tiket yang dipesan (1 orang maksimal dapat memeasan 3 tiket):")
                     if pesan=="1":
@@ -112,6 +113,7 @@ while (True):
                         print("Total harga tiket anda sebesar Rp.", D)
                     else:
                         print("Maksimal pemesanan adalah 3 tiket!")
+                        break
                 else:
                     print("Kelas tidak valid, mohon input kelas 1/2!")
             elif tujuan=="2":
