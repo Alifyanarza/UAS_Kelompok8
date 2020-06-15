@@ -43,6 +43,32 @@ while (True):
                        break
                    else:
                        print("Jadwal berhasil di booking, silahkan lanjut!")
+            elif kereta=="2":
+               print("Jadwal keberangkatan minggu ini: ")
+               list_jadwal = ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"]
+               print("1. ", list_jadwal[0])
+               print("2. ", list_jadwal[1])
+               print("3. ", list_jadwal[2])
+               print("4. ", list_jadwal[3])
+               print("5. ", list_jadwal[4])
+               print("6. ", list_jadwal[5])
+               print("7. ", list_jadwal[6])
+               hari=input("Pilih hari (dalam nomor sesuai list): ")
+               if hari not in ['1', '2', '3', '4', '5', '6', '7']:
+                   print("Nomor hari tidak valid, mohon inputkan antara 1-7")
+                   break
+               else:
+                   print("Daftar jam keberangkatan: ")
+                   list_jam = ["09.00", "15.00", "21.00"]
+                   print("1. ", list_jam[0])
+                   print("2. ", list_jam[1])
+                   print("3. ", list_jam[2])
+                   jam=input("Pilih jam (dalam nomor 1-3 sesuai daftar): ")
+                   if jam not in ['1', '2', '3']:
+                       print("Nomor jam tidak valid, mohon inputkan antara 1-3")
+                       break
+                   else:
+                       print("Jadwal berhasil di booking, silahkan lanjut!")
             
             print("")
             Tujuan=["Stasiun Purwosari","Stasiun Maguwo","Stasiun Tugu"]
