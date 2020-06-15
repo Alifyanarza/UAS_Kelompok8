@@ -12,7 +12,44 @@ while (True):
     if menu == "1":
             nama=input("Nama: ")
             no_ktp=input("Nomor KTP: ")
-            tanggal=input("Tanggal keberangkatan (dd/mm/yy): ")
+            print("Daftar kereta: ")
+            list_kereta = ["Kereta Kencana", "Kereta Argo"]
+            print("1. ", list_kereta[0])
+            print("2. ", list_kereta[1])
+            kereta=input("Pilih Kereta: ")
+            if kereta=="1":
+               print("Jadwal keberangkatan minggu ini: ")
+               list_jadwal = ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"]
+               print("1. ", list_jadwal[0])
+               print("2. ", list_jadwal[1])
+               print("3. ", list_jadwal[2])
+               print("4. ", list_jadwal[3])
+               print("5. ", list_jadwal[4])
+               print("6. ", list_jadwal[5])
+               print("7. ", list_jadwal[6])
+               hari=input("Pilih hari (dalam nomor sesuai list): ")
+               if hari not in ['1', '2', '3', '4', '5', '6', '7']:
+                   print("Nomor hari tidak valid, mohon inputkan antara 1-7")
+                   break
+               else:
+                   print("Daftar jam keberangkatan: ")
+                   list_jam = ["04.00","06.00", "08.00", "10.00", "12.00", "14.00", "16.00", "18.00", "20.00"]
+                   print("1. ", list_jam[0])
+                   print("2. ", list_jam[1])
+                   print("3. ", list_jam[2])
+                   print("4. ", list_jam[3])
+                   print("5. ", list_jam[4])
+                   print("6. ", list_jam[5])
+                   print("7. ", list_jam[6])
+                   print("8. ", list_jam[7])
+                   print("9. ", list_jam[8])
+                   jam=input("Pilih jam (dalam nomor 1-9 sesuai daftar): ")
+                   if jam not in ['1', '2', '3', '4', '5', '6', '7', '8', '9']:
+                       print("Nomor jam tidak valid, mohon inputkan antara 1-9")
+                       break
+                   else:
+                       print("Jadwal berhasil di booking, silahkan lanjut!")
+            
             print("")
             Tujuan=["Stasiun Purwosari","Stasiun Maguwo","Stasiun Tugu"]
             for n in range (3):
