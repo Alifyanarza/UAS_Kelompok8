@@ -31,7 +31,7 @@
       1. Menginputkan Nama & Nomor KTP
       2. Memilih kereta yang disediakan (2 kereta) dengan jam keberangkatan yang selisihnya 3 jam.
       3. Disediakan daftar jadwal keberangkatan pada minggu itu.
-          1. Pilih jadwal hari. (dengan menginput nomor urut dari hari yang diinginkan)
+          1. Input tanggal keberangkatan.
           2. Pilih jadwal jam. (dengan menginput nomor urut dari jam keberangkatan yang diinginkan; 1 hari ada 3 kali pemberangkatan)
       4. Menginputkan stasiun tujuan. (dengan menginput nomor dari stasiun yang akan dituju: 1 Stasiun Purwosari; 2 Stasiun Maguwo; 3 Stasiun Tugu)
       5. Menginputkan kelas kereta yang ingin dinaiki. (dengan menginput nomor dari kelas yang diinginkan: 1 Ekonomi; 2 Bisnis)
