@@ -130,6 +130,12 @@ while (True):
                 else:
                     print("Kelas tidak valid, mohon inputkan kelas 1/2!")
             elif tujuan=="3":
+                print("")
+                print("Kelas: ")
+                Kelas=["Ekonomi","Bisnis"]
+                for x in range (2):
+                    print(x+1, Kelas[x])
+                kelas=input("Pilih kelas: ")
                 if kelas=="1":
                     pesan=input("Jumlah tiket yang dipesan (1 orang maksimal dapat memesan 3 tiket): ")
                     if pesan=="1":
